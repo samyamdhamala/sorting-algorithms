@@ -4,7 +4,25 @@ This project evaluates the time efficiency of six classic sorting algorithms usi
 
 ## 📁 Project Structure
 
-```sorting-algorithms/ ├── dataset-generator/ │ ├── data_generator.cpp │ └── datasets/ ├── sorting-program/ │ ├── main.cpp │ ├── sorting_algorithms.cpp │ ├── sorting_algorithms.hpp │ └── datasets/ └── README.md```
+```sorting-algorithms/
+├── dataset-generator/
+│   ├── data_generator.cpp
+│   └── datasets/
+│       ├── dataset_25000.txt
+│       ├── sorted_dataset_25000.txt
+│       ├── sorted_desc_dataset_25000.txt
+│       └── ...
+├── sorting-program/
+│   ├── main.cpp
+│   ├── sorting_algorithms.cpp
+│   ├── sorting_algorithms.hpp
+│   └── datasets/
+│       ├── dataset_25000.txt
+│       ├── sorted_dataset_25000.txt
+│       ├── sorted_desc_dataset_25000.txt
+│       └── ...
+└── README.md
+```
 
 ## ⚙️ Implemented Algorithms
 
